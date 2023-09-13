@@ -3,3 +3,43 @@ p {
     font-size: 20px;
     font-weight: bold;
   }
+/* Global */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+text-align: center;
+background: #fff;
+color: #ee7517;
+font-size: 16px;
+line-height: 1.7;
+}
+
+section {
+  padding: 108px 0;;
+}
+
+.splash {
+ height: 100vh;
+ position: relative; 
+ background-image: url(https://i.postimg.cc/mr94xyNv/pexels-yusuf-p-11382581.jpg);
+ background-position: center center;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
